@@ -1,0 +1,3 @@
+[submodule "src/dgrid"]
+	path = src/dgrid
+	url = https://github.com/SitePen/dgrid.git
