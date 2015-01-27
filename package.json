@@ -1,0 +1,13 @@
+{
+  "name": "ArcGIS-JS-API-Compiler",
+  "version": "1.0.0",
+  "description": "Setup and compile a single page ESRI ArcGIS JS web application",
+  "author": "GeographicPerspective",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-curl": "^2.1.0",
+    "grunt-esri-slurp": "^1.4.0",
+    "intern": "2.0.3",
+    "stylus": "0.48.1"
+  }
+}
