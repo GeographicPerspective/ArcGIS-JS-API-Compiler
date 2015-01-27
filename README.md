@@ -14,6 +14,7 @@ Installation
 ------------
 1. Open `terminal/command shell`: Create a directory your web server can see
 2. Clone the git repository using `git clone --recursive https://github.com/GeographicPerspective/ArcGIS-JS-API-Compiler.git`.
+3. Type `cd ArcGIS-JS-API-Compiler.git`.
 3. Run `npm install` to install additional Node.js dependencies.
 4. Run `grunt esri-snarff` to slurp the ESRI JavaScript API. 
   * Unfortunately a grunt slurp of the ESRI JavaScript API does not acquire all the ESRI JS API. If you project requires the complete package see the set-up instructions bellow  
