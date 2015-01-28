@@ -33,6 +33,7 @@ var profile = {
 				"esri/dijit/Attribution"
 			],
 			exclude: [
+				// Because these modules are already in the esri init.js we will exclude them from our app/main.js 
 				"dijit/a11y",
 				"dijit/a11yclick",
 				"dijit/BackgroundIframe",
