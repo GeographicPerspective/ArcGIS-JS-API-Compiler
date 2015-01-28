@@ -12,7 +12,7 @@ Prerequisite
 
 Installation
 ------------
-1. Open `terminal/command shell`: Create a directory your web server can see
+1. Open `terminal/cmd`: Create a directory your web server can see
 2. Clone the git repository using `git clone --recursive https://github.com/GeographicPerspective/ArcGIS-JS-API-Compiler.git`.
 3. Type `cd ArcGIS-JS-API-Compiler.git`.
 3. Type `npm install` to install additional Node.js dependencies.
@@ -37,7 +37,7 @@ Directory Tree
 --------------
 * `/dist` Output folder for the complied code.
 * `/node_modules` Node.js modules used to compile the JavaScript.
-* `/profiles` Hold the build profile.
+* `/profiles` Holds the build profile.
  * `/app.profile.js` Setting used in the build process.
 * `/src`  Application's source files.
  * `/app` **Application code**.
