@@ -12,10 +12,9 @@
 	<!-- Core JavaScript -->
 	<script>
 		var dojoConfig = {
-			async: true,
 			baseUrl: '.',
-			locale: 'en',
-			isDebug: true,
+			//locale: 'en',
+			isDebug: false,
 			packages: [
 				{ name: 'app', location: 'app' },
 				{ name: 'dgrid', location: 'dgrid'},
@@ -25,13 +24,10 @@
 				{ name: 'put-selector', location: 'put-selector' },
 				{ name: 'xstyle', location: 'xstyle' },
 				{ name: 'esri', location: 'esri' }
-			],
-			selectorEngine: 'lite',
-			tlmSiblingOfDojo: false
+			]
 		};
 	</script>
-	<!--<script src="esri-init/init.js"></script>-->
-	<script src="dojo/dojo.js"></script>
-	<script>require([ 'app/main' ]);</script>
+	<script src="esri-init/init.js"></script>
+	<script>require([ 'app/main' ]); </script>
 </body>
 </html>
