@@ -8,7 +8,7 @@ Prerequisite
 2. [git](http://git-scm.com/)
 3. [Node.js](http://nodejs.org)
 4. [GRUNT](http://gruntjs.com/)
-5. [Java runtime](http://www.oracle.com/technetwork/java/index.html)
+5. [Java runtime](http://www.java.com/)
 
 Installation
 ------------
