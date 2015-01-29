@@ -1,6 +1,6 @@
 # ArcGIS-JS-API-Compiler (for ESRI JS API 3.12)
 
-ESRI ArcGIS JS API Compiler is a basic template for a single page ESRI mapping application. The project has been designed so that a user can easily set-up and compile all the JavaScript and CSS files. The more complex the web application developed, the more benefit will be gained from compiling the code. For example, a recently developed map viewer compiled down from 116 JavaScript files to 10 and 57 CSS files to 9. In this project a simple demo web application has been included to demonstrate file structure and location.
+ESRI ArcGIS JS API Compiler is a basic template for a single page ESRI mapping application. The project has been designed so that a user can easily set-up and compile all the JavaScript and CSS files. The more complex the web application developed, the more benefit will be gained from compiling the code. For example, a recently developed map viewer compiled down from 133 JavaScript files to 12 and 17 CSS files to 9. A total saving of 129 file or 573 kilobytes. In this project a simple demo web application has been included to demonstrate file structure and location.
 
 Prerequisite
 ------------
