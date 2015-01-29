@@ -26,10 +26,6 @@ var profile = {
 		'app/main': {
 			include: [
 				// If the compiler missed some of the includes they can be manually added here
-				"dojo/nls/dojo_en-us",
-				"dojox/gfx/path",
-				"dojox/gfx/shape",
-				"dojox/gfx/svg",
 				"esri/dijit/Attribution"
 			],
 			exclude: [

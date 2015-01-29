@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 set -e
 
 # Base directory for this entire project
