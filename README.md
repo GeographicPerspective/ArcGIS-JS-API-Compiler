@@ -22,6 +22,7 @@ Installation
 Compile
 -------
 1. Run `build.sh` to compile the `/src` folder. It will be built into `/dist`.
+  * **Warning and errors:** Unfortunately the compile process generates a collection of errors and warnings which can't be address. Most of these messages can be ignored.
 
 Project Structure
 -----------------
