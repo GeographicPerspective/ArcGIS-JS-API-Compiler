@@ -4,11 +4,11 @@ ESRI ArcGIS JS API Compiler is a basic template for a single page ESRI mapping a
 
 Prerequisite
 ------------
-1. A web server: [Apache](http://www.apache.org/) or [IIS](http://www.iis.net/)
-2. [git](http://git-scm.com/)
-3. [Node.js](http://nodejs.org)
-4. [GRUNT](http://gruntjs.com/)
-5. [Java runtime](http://www.java.com/)
+1. A web server: [Apache](http://www.apache.org/) or [IIS](http://www.iis.net/) - Needed to host the mapping application.
+2. [git](http://git-scm.com/) - Used to download the repository and to run `build.sh` shell script.
+3. [Node.js](http://nodejs.org) - Used to compile the code.
+4. [GRUNT](http://gruntjs.com/) - Used to slurp(download) the ESRI JavaScript API.
+5. [Java runtime](http://www.java.com/) - Used to compile the code.
 
 Installation
 ------------
@@ -41,6 +41,11 @@ Directory Tree
  * `/app.profile.js` Setting used in the build process.
 * `/src`  Application's source files.
  * `/app` **Application code**.
+   * `/resources` Holds the application's resources (images, css, etc.)
+     * `/app.css` The primary CSS file.
+    * `main.js` The primary JavaScript file.
+    * `/package.js` Used to tell the compiler how to handle the enclosed files
+    * `/package.json` Used to tell the compiler information about the folder
  * `/dgrid` Vendor js files. Should not require editing.
  * `/dijit` Vendor js files. Should not require editing.
  * `/dojo` Vendor js files. Should not require editing.
@@ -52,6 +57,8 @@ Directory Tree
  * `/xstyle` Vendor js files. Should not require editing.
  * `/index.html` **Application's HTML file**.
 * `/build.sh` Sets up and starts the build process. Uses `app.profile.js`.
+* `gruntfile.js` Instructs `Grunt` to slurp the ESRI JavaScript API.
+* `package.json` Instructs `Node.js` on which packages to install.
 
 Manual Set-up Installation of the ESRI JavaSrcipt API
 ----------------------------------------------
@@ -63,7 +70,6 @@ Using grunt to slurp the ESRI JavaScript API does not acquire all the ESRI JS AP
 4. Open the downloaded `arcgis_js_v312_api.zip` zip file
 5. Extract `arcgis_js_v312_api.zip/arcgis_js_v312_api/arcgis_js_api/library/3.12/3.12/esri/` to `/src/esri/`
 6. Extract `arcgis_js_v312_api.zip/arcgis_js_v312_api/arcgis_js_api/library/3.12/3.12/init.js` to `src/esri-init/`
-7. Open `src/esri-init/init.js` in a text editor and search for the text `[HOSTNAME_AND_PATH_TO_JSAPI]` replace `baseUrl:(location.protocol === 'file:' ? 'http:' : location.protocol) + '//' + "[HOSTNAME_AND_PATH_TO_JSAPI]dojo"` text with `baseUrl:"../dojo"`
 
 A Special Thanks
 ----------------
