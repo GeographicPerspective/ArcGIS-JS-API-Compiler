@@ -1,4 +1,4 @@
-# ArcGIS-JS-API-Compiler (for ESRI JS API 3.12)
+# ArcGIS-JS-API-Compiler (for ESRI JS API 3.13)
 
 ESRI ArcGIS JS API Compiler is a basic template for a single page ESRI mapping application. The project has been designed so that a user can easily set-up and compile all the JavaScript and CSS files. The more complex the web application developed, the more benefit will be gained from compiling the code. For example, a recently developed map viewer compiled down from 133 JavaScript files to 12 and 17 CSS files to 9. A total saving of 129 file or 573 kilobytes. In this project a simple demo web application has been included to demonstrate file structure and location.
 
@@ -67,10 +67,10 @@ Using grunt to slurp the ESRI JavaScript API does not acquire all the ESRI JS AP
 
 1. Go to https://developers.arcgis.com/en/downloads/
 2. Login. You will need an ESRI account.
-3. Download the ArcGIS API for JavaScript Locally Hosted API version 3.12
+3. Download the ArcGIS API for JavaScript Locally Hosted API version 3.13
 4. Open the downloaded `arcgis_js_v312_api.zip` zip file
-5. Extract `arcgis_js_v312_api.zip/arcgis_js_v312_api/arcgis_js_api/library/3.12/3.12/esri/` to `/src/esri/`
-6. Extract `arcgis_js_v312_api.zip/arcgis_js_v312_api/arcgis_js_api/library/3.12/3.12/init.js` to `src/esri-init/`
+5. Extract `arcgis_js_v313_api.zip/arcgis_js_v312_api/arcgis_js_api/library/3.13/3.13/esri/` to `/src/esri/`
+6. Extract `arcgis_js_v313_api.zip/arcgis_js_v312_api/arcgis_js_api/library/3.13/3.13/init.js` to `src/esri-init/`
 
 A Special Thanks
 ----------------
