@@ -4,8 +4,9 @@ define([
 	'dijit/form/Button',
 	'esri/map',
 	'esri/layers/FeatureLayer',
+	'esri/IdentityManager',
 	'dojo/domReady!'
-], function (Dialog, Button, Map, FeatureLayer) {
+], function (Dialog, Button, Map, FeatureLayer, IdentityManager) {
 	"use strict";
 	var myButton, map, secureLayer, dialog;
 
