@@ -19,3 +19,6 @@
 [submodule "src/xstyle"]
 	path = src/xstyle
 	url = https://github.com/kriszyp/xstyle.git
+[submodule "src/dstore"]
+	path = src/dstore
+	url = https://github.com/SitePen/dstore.git

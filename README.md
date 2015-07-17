@@ -1,4 +1,4 @@
-# ArcGIS-JS-API-Compiler (for ESRI JS API 3.13)
+# ArcGIS-JS-API-Compiler (for ESRI JS API 3.14)
 
 ESRI ArcGIS JS API Compiler is a basic template for a single page ESRI mapping application. The project has been designed so that a user can easily set-up and compile all the JavaScript and CSS files. The more complex the web application developed, the more benefit will be gained from compiling the code. For example, a recently developed map viewer compiled down from 133 JavaScript files to 12 and 17 CSS files to 9. A total saving of 129 file or 573 kilobytes. In this project a simple demo web application has been included to demonstrate file structure and location.
 
@@ -51,6 +51,7 @@ Directory Tree
  * `/dijit` Vendor js files. Should not require editing.
  * `/dojo` Vendor js files. Should not require editing.
  * `/dojox` Vendor js files. Should not require editing.
+ * `/dstore` Vendor js files. Should not require editing.
  * `/esri` Vendor js files. Should not require editing.
  * `/esri-init`Esri initialization js file. Should not require editing.
  * `/put-selector` Vendor js files. Should not require editing.
@@ -60,17 +61,6 @@ Directory Tree
 * `/build.sh` Sets up and starts the build process. Uses `app.profile.js`.
 * `gruntfile.js` Instructs `Grunt` to slurp the ESRI JavaScript API.
 * `package.json` Instructs `Node.js` on which packages to install.
-
-Manual Set-up Installation of the ESRI JavaSrcipt API
-----------------------------------------------
-Using grunt to slurp the ESRI JavaScript API does not acquire all the ESRI JS API. For most applications, a manual installation of the ESRI JavaSrcipt API will not be required. However, if you need the full installation here are the steps.
-
-1. Go to https://developers.arcgis.com/en/downloads/
-2. Login. You will need an ESRI account.
-3. Download the ArcGIS API for JavaScript Locally Hosted API version 3.13
-4. Open the downloaded `arcgis_js_v312_api.zip` zip file
-5. Extract `arcgis_js_v313_api.zip/arcgis_js_v312_api/arcgis_js_api/library/3.13/3.13/esri/` to `/src/esri/`
-6. Extract `arcgis_js_v313_api.zip/arcgis_js_v312_api/arcgis_js_api/library/3.13/3.13/init.js` to `src/esri-init/`
 
 A Special Thanks
 ----------------
