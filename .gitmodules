@@ -22,3 +22,6 @@
 [submodule "src/dstore"]
 	path = src/dstore
 	url = https://github.com/SitePen/dstore.git
+[submodule "src/esri"]
+	path = src/esri
+	url = https://github.com/Esri/arcgis-js-api.git
