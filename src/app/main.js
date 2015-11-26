@@ -12,7 +12,7 @@ define([
 
 	dialog = new Dialog({
 		title: "About",
-		content: "A secure service was added to the demo application to illustrate the templates correct use of the ESRI init.js.  If the ESRI init.js was not implemented correctly the esri/kernel would not be populated with all its attributes. As a result of an incorrectly loaded esri/kernel a password prompt would not popup for a secure service.",
+		content: "A secure service was added to the demo application to illustrate the templates correct use of the ESRI libraries.  If the ESRI library was not implemented correctly the esri/kernel would not be populated with all its attributes. As a result of an incorrectly loaded esri/kernel a password prompt would not popup for a secure service.",
 		style: "width: 300px"
 	});
 

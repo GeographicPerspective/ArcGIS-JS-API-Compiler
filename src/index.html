@@ -18,6 +18,7 @@
 		var dojoConfig = {
 			baseUrl: '.',
 			//locale: 'en',
+			deps: ['app/main'],
 			isDebug: false,
 			packages: [
 				{ name: 'app', location: 'app' },
@@ -32,7 +33,6 @@
 			]
 		};
 	</script>
-	<script src="esri-init/init.js"></script>
-	<script>require([ 'app/main' ]); </script>
+	<script src="dojo/dojo.js"></script>
 </body>
 </html>

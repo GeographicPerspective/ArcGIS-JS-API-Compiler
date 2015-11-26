@@ -6,9 +6,10 @@ var profile = {
 	optimize: 'closure',
 	layerOptimize: 'closure',
 	packages: [
-		{ name: "esri-init", location: "esri-init" },
+		//{ name: "esri-init", location: "esri-init" },
 		{ name: 'app', location: 'app' },
 		{ name: 'dgrid', location: 'dgrid'},
+		{ name: 'dstore', location: 'dstore'},
 		{ name: 'dijit', location: "dijit"},
 		{ name: 'dojo', location: "dojo"},
 		{ name: 'dojox', location: "dojox"},
@@ -21,20 +22,15 @@ var profile = {
 	layers: {
 		'dojo/dojo': {
 			boot: true,
-			customBase: true
-		},
-		'app/main': {
+			customBase: true,
 			include: [
+				'app/main',
 				// If the compiler missed some of the includes they can be manually added here
 				"esri/dijit/Attribution",
 				"dojo/selector/acme.js",
 				"dojox/gfx/svg",
 				"dojox/gfx/shape",
 				"dojox/gfx/path"
-			],
-			exclude: [
-				"dojo/domReady",
-				"dojo/has"
 			]
 		}
 	},
