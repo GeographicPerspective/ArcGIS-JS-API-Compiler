@@ -9,7 +9,6 @@ var profile = {
 		//{ name: "esri-init", location: "esri-init" },
 		{ name: 'app', location: 'app' },
 		{ name: 'dgrid', location: 'dgrid'},
-		{ name: 'dstore', location: 'dstore'},
 		{ name: 'dijit', location: "dijit"},
 		{ name: 'dojo', location: "dojo"},
 		{ name: 'dojox', location: "dojox"},
@@ -24,7 +23,7 @@ var profile = {
 			boot: true,
 			customBase: true,
 			include: [
-				'app/main',
+				"app/main",
 				// If the compiler missed some of the includes they can be manually added here
 				"esri/dijit/Attribution",
 				"dojo/selector/acme.js",

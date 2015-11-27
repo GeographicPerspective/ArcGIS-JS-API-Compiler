@@ -16,13 +16,12 @@ module.exports = function (grunt) {
 			}
 		},
 		curl: {
-			'src/esri-init/init.js': 'http://js.arcgis.com/3.14amd/init.js'
-			//,
-			//'src/esri/nls/jsapi_ROOT.js': 'http://js.arcgis.com/3.14/esri/nls/jsapi_ROOT.js',
-			//'src/esri/nls/jsapi_en-us.js': 'http://js.arcgis.com/3.14/esri/nls/jsapi_en-us.js'
+			'src/esri-init/init.js': 'http://js.arcgis.com/3.14amd/init.js',
+			'src/esri/nls/jsapi_ROOT.js': 'http://js.arcgis.com/3.14/esri/nls/jsapi_ROOT.js',
+			'src/esri/nls/jsapi_en-us.js': 'http://js.arcgis.com/3.14/esri/nls/jsapi_en-us.js'
 		}
 	});
-	//grunt.loadNpmTasks("grunt-esri-slurp");
+	grunt.loadNpmTasks("grunt-esri-slurp");
 	grunt.loadNpmTasks('grunt-curl');
-	grunt.registerTask("esri-snarff", ["curl"]);
+	grunt.registerTask("esri-snarff", ["esri_slurp:dev", "curl"]);
 };

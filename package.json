@@ -1,6 +1,6 @@
 {
   "name": "ArcGIS-JS-API-Compiler",
-  "version": "1.0.0",
+  "version": "3.14.0",
   "description": "Setup and compile a single page ESRI ArcGIS JS web application",
   "author": "GeographicPerspective",
   "devDependencies": {
